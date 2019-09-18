@@ -1,0 +1,31 @@
+html,body{
+    background-image: url('../imagenes/img_carrusel/imagen1.jpg');
+    background-size: cover;
+}
+
+
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color:transparent;
+    border-radius: 0.3em;
+    color: white;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+
+
+
+.card{
+    height: 100%;
+    margin-top: 02%;
+    margin-bottom: auto;
+    width: 70%;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
