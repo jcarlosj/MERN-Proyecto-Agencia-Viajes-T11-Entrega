@@ -13,5 +13,8 @@
     color:white;
 }
 .imagen-superior {
-  
+    overflow-x: hidden;
+}
+.icono-nav {
+    fill: white;
 }

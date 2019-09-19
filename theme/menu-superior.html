@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/tarjetas-styles.css">
+    <link rel="stylesheet" href="css/tarjetas-default.css">
+    <script src="js/tarjetas-efectos-home.js"></script>
+    <script src="js/tarjetas-home.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -19,105 +23,107 @@
         crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Palanquin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/menu-superior.css">
-    
+
 </head>
 
 <body>
-    
-        <header class="menu-superior w-100">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"><img src="imagenes/logotipo-boreal-blanco.png" alt="logo-boreal"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">AEROLÍNEA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">HOTELES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PAQUETES</a>
-                        </li>
+    <header class="menu-superior w-100">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img class="logo-nav" src="imagenes/logotipo-boreal-blanco.png"
+                    alt="logo-boreal"></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icono-nav"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">AEROLÍNEA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOTELES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PAQUETES</a>
+                    </li>
 
 
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">MIS TIQUETES</a>
-                        </li>
-                    </ul>
-                    <a class="my-2 my-sm-0 mr-4" href="/login.html"><svg xmlns="http://www.w3.org/2000/svg" width="46"
-                            height="46" viewBox="0 0 24 24">
-                            <path
-                                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm7.753 18.305c-.261-.586-.789-.991-1.871-1.241-2.293-.529-4.428-.993-3.393-2.945 3.145-5.942.833-9.119-2.489-9.119-3.388 0-5.644 3.299-2.489 9.119 1.066 1.964-1.148 2.427-3.393 2.945-1.084.25-1.608.658-1.867 1.246-1.405-1.723-2.251-3.919-2.251-6.31 0-5.514 4.486-10 10-10s10 4.486 10 10c0 2.389-.845 4.583-2.247 6.305z" />
-                        </svg></a>
-                    <a class="my-2 my-sm-0" href="/registro.html"><svg xmlns="http://www.w3.org/2000/svg" width="46"
-                            height="46" viewBox="0 0 24 24">
-                            <path
-                                d="M13.473 7.196c-.425-.439-.401-1.127.035-1.552l4.461-4.326c.218-.211.498-.318.775-.318.282 0 .563.11.776.331l-6.047 5.865zm-7.334 11.021c-.092.089-.139.208-.139.327 0 .25.204.456.456.456.114 0 .229-.042.317-.128l.749-.729-.633-.654-.75.728zm6.33-8.425l-2.564 2.485c-1.378 1.336-2.081 2.63-2.73 4.437l1.132 1.169c1.825-.593 3.14-1.255 4.518-2.591l2.563-2.486-2.919-3.014zm7.477-7.659l-6.604 6.405 3.326 3.434 6.604-6.403c.485-.469.728-1.093.728-1.718 0-2.088-2.53-3.196-4.054-1.718zm-1.946 11.333v7.534h-16v-12h8.013l2.058-2h-12.071v16h20v-11.473l-2 1.939z" />
-                        </svg></a>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">MIS TIQUETES</a>
+                    </li>
+                </ul>
+                <a class="my-2 my-sm-0 mr-4" href="/login.html"><svg class="icono-nav"
+                        xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm7.753 18.305c-.261-.586-.789-.991-1.871-1.241-2.293-.529-4.428-.993-3.393-2.945 3.145-5.942.833-9.119-2.489-9.119-3.388 0-5.644 3.299-2.489 9.119 1.066 1.964-1.148 2.427-3.393 2.945-1.084.25-1.608.658-1.867 1.246-1.405-1.723-2.251-3.919-2.251-6.31 0-5.514 4.486-10 10-10s10 4.486 10 10c0 2.389-.845 4.583-2.247 6.305z" />
+                    </svg></a>
+                <a class="my-2 my-sm-0" href="/registro.html"><svg class="icono-nav" xmlns="http://www.w3.org/2000/svg"
+                        width="46" height="46" viewBox="0 0 24 24">
+                        <path
+                            d="M13.473 7.196c-.425-.439-.401-1.127.035-1.552l4.461-4.326c.218-.211.498-.318.775-.318.282 0 .563.11.776.331l-6.047 5.865zm-7.334 11.021c-.092.089-.139.208-.139.327 0 .25.204.456.456.456.114 0 .229-.042.317-.128l.749-.729-.633-.654-.75.728zm6.33-8.425l-2.564 2.485c-1.378 1.336-2.081 2.63-2.73 4.437l1.132 1.169c1.825-.593 3.14-1.255 4.518-2.591l2.563-2.486-2.919-3.014zm7.477-7.659l-6.604 6.405 3.326 3.434 6.604-6.403c.485-.469.728-1.093.728-1.718 0-2.088-2.53-3.196-4.054-1.718zm-1.946 11.333v7.534h-16v-12h8.013l2.058-2h-12.071v16h20v-11.473l-2 1.939z" />
+                    </svg></a>
 
-                </div>
-            </nav>
-        </header>
-    
+            </div>
+        </nav>
+    </header>
+
     <main>
-        <section>
-            <img class="imagen-superior" src="imagenes/imagen-header-borrador.png" alt="">
+        <section class="imagen-superior">
+            <img src="imagenes/imagen-header-borrador.png" alt="paisaje">
         </section>
         <section>
-            <img class="imagen-superior" src="https://via.placeholder.com/1366x768" alt="">
+            <img class="" src="https://via.placeholder.com/1000x768" alt="">
         </section>
         <section class="container-fluid">
             <section class="row justify-content-center">
-                <div class="col-lg-3">
-                    <div class="grid">
-                        <figure class="effect-sadie">
-                            <img src="https://static.pexels.com/photos/15765/pexels-photo-large.jpg" alt="img02"/>
-                            <figcaption>
-                                <h2>Holy <span>Sadie</span></h2>
-                                <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
-                                <a href="#">View more</a>
-                            </figcaption>			
+                <!-- tarjetas enlace ciudades -->
+                <ul class="grid cs-style-1">
+                    <li>
+                        <figure>
+                            <img src="imagenes/d2.jpg" alt="img1">
+                            <figcaption class="card-fuente">
+                                <h3>primera imagen</h3>
+                                <span>despues de todo</span>
+                                <a href="https://www.visitnorway.es/que-ver-en-noruega/este-de-noruega/oslo/">Take a
+                                    look</a>
+                            </figcaption>
                         </figure>
-                       
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="grid">
-                        <figure class="effect-sadie">
-                            <img src="https://static.pexels.com/photos/15765/pexels-photo-large.jpg" alt="img02"/>
-                            <figcaption>
-                                <h2>Holy <span>Sadie</span></h2>
-                                <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
-                                <a href="#">View more</a>
-                            </figcaption>			
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="imagenes/d2.jpg" alt="img2">
+                            <figcaption class="card-fuente">
+                                <h3>primera imagen</h3>
+                                <span>despues de todo</span>
+                                <a href="https://www.visitnorway.es/que-ver-en-noruega/este-de-noruega/oslo/">Take a
+                                    look</a>
+                            </figcaption>
                         </figure>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="grid">
-                        <figure class="effect-sadie">
-                            <img src="https://static.pexels.com/photos/15765/pexels-photo-large.jpg" alt="img02"/>
-                            <figcaption>
-                                <h2>Holy <span>Sadie</span></h2>
-                                <p>Sadie never took her eyes off me. <br>She had a dark soul.</p>
-                                <a href="#">View more</a>
-                            </figcaption>			
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="imagenes/d2.jpg" alt="img3">
+                            <figcaption class="card-fuente">
+                                <h3>primera imagen</h3>
+                                <span>despues de todo</span>
+                                <a href="https://www.visitnorway.es/que-ver-en-noruega/este-de-noruega/oslo/">Take a
+                                    look</a>
+                            </figcaption>
                         </figure>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </section>
             <section class="row">
-                <div class="col-12"></div>
+                <div class="col-12">
+
+                </div>
             </section>
             <section class="row">
                 <div class="col-12"></div>
@@ -125,171 +131,40 @@
         </section>
     </main>
     <script>
-        var runOnScroll = function(evt){
+        var runOnScroll = function (evt) {
             var scroll = this.scrollY;
 
             var imgTop = document.querySelector(".imagen-superior")
-
+            var logo = document.querySelector(".logo-nav")
             var menu = document.querySelectorAll(".menu-superior li a")
-            if(scroll > imgTop.clientHeight){
+            var iconos = document.querySelectorAll(".icono-nav")
+
+
+            if (scroll > imgTop.clientHeight) {
+
                 menu.forEach(element => {
-                    element.style.color = "black"
+                    element.style.color = "#6a6c6d"
                 });
+                logo.src = "imagenes/logotipo-boreal-gris.png";
+
+                iconos.forEach(element => {
+                    element.style.fill = "#6a6c6d"
+                })
             } else {
                 menu.forEach(element => {
                     element.style.color = "white"
                 });
+                logo.src = "imagenes/logotipo-boreal-blanco.png";
+
+                iconos.forEach(element => {
+
+                    element.style.fill = "white"
+                })
             }
         }
-        window.addEventListener("scroll",runOnScroll)
+        window.addEventListener("scroll", runOnScroll)
     </script>
-    <style>
-/* Estilos de las cards*/
 
-        .grid {
-	position: relative;
-	margin: 0 auto;
-	padding: 1em 0 4em;
-	max-width: 1000px;
-	list-style: none;
-	text-align: center;
-}
-
-/* Common style */
-.grid figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
-	width: 48%;
-	background: #3085a3;
-	text-align: center;
-	cursor: pointer;
-}
-
-.grid figure img {
-	position: relative;
-	display: block;
-	min-height: 100%;
-	max-width: 100%;
-	opacity: 0.8;
-}
-
-.grid figure figcaption {
-	padding: 2em;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.25em;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-	pointer-events: none;
-}
-
-.grid figure figcaption,
-.grid figure figcaption > a {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.grid figure figcaption > a {
-	z-index: 1000;
-	text-indent: 200%;
-	white-space: nowrap;
-	font-size: 0;
-	opacity: 0;
-}
-
-.grid figure h2 {
-	word-spacing: -0.15em;
-	font-weight: 300;
-}
-
-.grid figure h2 span {
-	font-weight: 800;
-}
-
-.grid figure h2,
-.grid figure p {
-	margin: 0;
-}
-
-.grid figure p {
-	letter-spacing: 1px;
-	font-size: 68.5%;
-}
-
-/*---------------*/
-/***** Sadie *****/
-/*---------------*/
-
-figure.effect-sadie figcaption::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
-	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
-	content: '';
-	opacity: 0;
-	-webkit-transform: translate3d(0,50%,0);
-	transform: translate3d(0,50%,0);
-}
-
-figure.effect-sadie h2 {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 100%;
-	color: #484c61;
-	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
-	transition: transform 0.35s, color 0.35s;
-	-webkit-transform: translate3d(0,-50%,0);
-	transform: translate3d(0,-50%,0);
-}
-
-figure.effect-sadie figcaption::before,
-figure.effect-sadie p {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-}
-
-figure.effect-sadie p {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 2em;
-	width: 100%;
-	opacity: 0;
-	-webkit-transform: translate3d(0,10px,0);
-	transform: translate3d(0,10px,0);
-}
-
-figure.effect-sadie:hover h2 {
-	color: #fff;
-	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
-	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
-}
-
-figure.effect-sadie:hover figcaption::before ,
-figure.effect-sadie:hover p {
-	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-    </style>
 </body>
 
 </html>
