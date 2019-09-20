@@ -1,6 +1,6 @@
 .grid {
-	padding: 20px 20px 100px 20px;
-	max-width: 1300px;
+	/* padding: 20px 20px 100px 20px; */
+	/* max-width: 1300px; */
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
@@ -8,9 +8,9 @@
 
 .grid li {
 	display: inline-block;
-	width: 400px;
+	width: 305px;
 	margin: 0;
-	padding: 20px;
+	padding: 10px;
 	text-align: left;
 	position: relative;
 }
@@ -68,7 +68,7 @@
 .cs-style-1 figcaption {
 	height: 100%;
 	width: 100%;
-	/* opacity: 0; */
+	opacity: 0;
 	text-align: center;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -80,7 +80,7 @@
 
 .no-touch .cs-style-1 figure:hover figcaption,
 .cs-style-1 figure.cs-hover figcaption {
-	/* opacity: 1; */
+	opacity: 1;
 	-webkit-transform: translate(15px, 15px);
 	-moz-transform: translate(15px, 15px);
 	-ms-transform: translate(15px, 15px);
