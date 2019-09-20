@@ -18,3 +18,13 @@
 .icono-nav {
     fill: white;
 }
+
+.section-concepto h1 {
+    font-size: 15px;
+}
+.section-concepto p {
+    font-size: 12px;
+}
+.section-atracciones p {
+    font-size: 12px;
+}
