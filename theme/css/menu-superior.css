@@ -66,3 +66,7 @@ body {
 .redes-sociales li {
     text-decoration: none;
 }
+
+#carousel-example-2 img {
+    min-height: 175px;
+}
