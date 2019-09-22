@@ -1,0 +1,72 @@
+body {
+    font-family: "palanquin";
+}
+
+.menu-superior {
+	font-family: "palanquin";
+	font-size: 25px;
+    font-weight: bold;
+    background-image: rgba(255 , 255, 255, 0.1);
+    position: fixed;
+    z-index: 11;
+}
+.menu-superior nav {
+	padding-top: 27px;
+}
+.menu-superior nav a{
+    color:white;
+}
+.imagen-superior {
+    overflow-x: hidden;
+}
+.icono-nav {
+    fill: white;
+}
+
+.section-concepto h1 {
+    color: #1e459b;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.section-concepto p {
+    font-size: 12px;
+}
+.section-atracciones p {
+    font-size: 12px;
+}
+
+.concepto-magico div {
+    text-transform: uppercase;
+    color: #1e459b;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.separador-footer {
+    border-width: 2px;
+    border-color: #1e459b;
+    margin-bottom: 0;
+}
+
+.menu-footer h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.redes-sociales {
+    list-style-type: none;
+}
+
+.redes-sociales li {
+    display: inline;
+    fill: #1e459b;
+}
+
+.redes-sociales li {
+    text-decoration: none;
+}
+
+#carousel-example-2 img {
+    min-height: 175px;
+}
