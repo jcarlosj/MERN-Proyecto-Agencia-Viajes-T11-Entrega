@@ -1,6 +1,6 @@
 :root {
     --modal-duration: 1s;
-    --modal-color: #40c434;
+    --modal-color: #1e459b;
   }
   
   body {
@@ -15,7 +15,7 @@
   } 
   
   .button {
-    background: #428bca;
+    background: #6a6c6d;
     padding: 1em 2em;
     color: #fff;
     border: 0;
@@ -24,7 +24,7 @@
   }
   
   .button:hover {   
-    background: #3876ac;
+    background: #6d466b;
   }
   
   .modal {
