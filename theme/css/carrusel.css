@@ -1,6 +1,4 @@
-.productos {
-    background-color: #020202;
-}
+
 .productos hgroup {
     margin: .7rem 0;
 }
@@ -8,6 +6,7 @@
     color: white;
     font-size: 1.3rem;
     margin: 0;
+   
 }
 
 .slider-productos {
@@ -36,7 +35,7 @@
 #carousel div img {
     width: 400px;
     transition: width 1s;
-    border-radius: 1rem;
+    
     /* border: 3px solid orange;
     box-sizing: border-box; */
 }
@@ -46,6 +45,7 @@
     color: white;
     width: 100%;
     padding: 0 .6rem;
+background-color: rgba(0,0,0,0.5) !important;
 }
 
 #carousel .next .info .title,
@@ -136,7 +136,7 @@
     padding: 1rem 0;
 }
 .btn-duff {
-    background-color: #bc921e;
+    background-color: goldenrod;
     color: white;
     margin: 0 .5rem;
     display: inline-block;
@@ -148,7 +148,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #bc921e;
+    background-color: goldenrod;
     border: 1px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -156,3 +156,12 @@
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.descripcion2-letras{
+    font-size: 0,01em}
+
+    .descripcion3-snaps{
+        font-size: 0,2%;
+    }
+    h3{
+        color: goldenrod;
+    }
