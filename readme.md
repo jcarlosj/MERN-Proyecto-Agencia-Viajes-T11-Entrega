@@ -31,4 +31,16 @@ https://www.youtube.com/watch?v=yXT1ElMEkW8
     4.7 git push -u origin master      //enter
 
 
-5. Cuamndo trabajamos con varias personas hacemos:      git pull   // enter, así nos actualiza el docmentos desde el repositorio.
+5. Cuando trabajamos con varias personas hacemos:      git pull   // enter, así nos actualiza el documentos desde el repositorio.
+
+--------------Para crear otra rama---------------
+1. git branch
+2. git branch content
+3. git branch 
+4. git branch content
+5. git checkout content
+Creamos una carpeta nueva con el nombre content en nuestro sitio de trabajo, carpeta trabajo.
+6. git checkout
+7. git add .
+8. git commit -m "comentario al respecto"
+9. git push -u origin content 
